@@ -1,0 +1,10 @@
+pymongo
+fastapi
+uvicorn
+cachetools
+python-dotenv
+pydantic[email]
+python-multipart
+apscheduler
+aioredis
+dependency_injector
