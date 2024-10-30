@@ -22,10 +22,16 @@ Xây dựng ứng dụng quản lý và điều phối đơn hàng theo yêu c�
 * Tự động push đơn hàng cho người giao hàng khi tới lịch giao hàng định kỳ
 
 ## Installation
-1. pip install -r requirements.txt
-2. python -m uvicorn app.main:app --reload
-3. Install Redis ( cmd : redis-server )
+1. Install Library
    ```cmd
-   redis-server
+   pip install -r requirements.txt
    ```
-    https://github.com/MicrosoftArchive/redis/releases
+2. Run Pydantic
+   ```cmd
+   python -m uvicorn app.main:app --reload
+   ```
+3. Install Redis - Docs: https://github.com/MicrosoftArchive/redis/releases
+   ```cmd
+   redis-server.exe
+   ```
+    
